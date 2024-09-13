@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operações Matemáticas</title>
+</head>
+<body>
+    <center>
+        <form action="switch.php" method="get">
+            <label for="num">Número:</label> 
+            <input type="number" name="num" id="num" required><br><br>
+            
+            <fieldset>
+                <legend>Operação</legend>
+                <input type="radio" name="oper" id="dobro" value="1">
+                <label for="dobro">Dobro</label><br>
+                
+                <input type="radio" name="oper" id="cubo" value="2">
+                <label for="cubo">Cubo</label><br>
+                
+                <input type="radio" name="oper" id="raiz" value="3">
+                <label for="raiz">Raiz Quadrada</label><br>
+            </fieldset>
+
+            <br>
+            <input type="submit" value="Calcular">
+        </form>
+    </center>
+</body>
+</html>
