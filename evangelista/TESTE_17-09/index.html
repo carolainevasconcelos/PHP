@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Manutenção de Carros</title>
+    <link rel="stylesheet" href="../TESTE_17-09/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Manutenção de Carros</h1>
+        <form action="calculo.php" method="post">
+            <label for="servico">Serviço realizado:</label>
+            <input type="text" id="servico" name="servico" required>
+
+            <label for="valorServico">Valor do serviço:</label>
+            <input type="number" id="valorServico" name="valorServico" step="0.01" required>
+
+            <label for="quantidadePecas">Quantidade de peças:</label>
+            <input type="number" id="qtd" name="qtd" required>
+
+            <label for="valorPeca">Valor da peça:</label>
+            <input type="number" id="valorPeca" name="valorPeca" step="0.01" required>
+
+            <button type="submit">Calcular custo</button>
+        </form>
+    </div>
+</body>
+</html>
